@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+:root{
+    --cor-principal: #245141;
+    --cor-secundaria: #29765a;
+    --cor-fundo-secundaria: #232c29;
+    --cor-texto-claro: whitesmoke;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+.navbar, .dropdown-menu, .offcanvas-header{
+    background-color: var(--cor-principal);
+}
+.navbar a, .offcanvas-title {
+    color: var(--cor-texto-claro)
+}
+.logo-navbar{
+    max-width: 50px;
+}
+
+
+/* home */
+.tittlehome p{
+    line-height: 46px;
+    font-size: 350%;
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+}
+.tittlehome b{
+    color: var(--cor-secundaria);
+}
+.fundo-home{
+    position: absolute;
+    width: 100%;
+    height: 243px;
+    margin: 0;
+
+    background:var(--cor-fundo-secundaria);
+}
+.carousel-inner img{
+    max-height: 350px;
+}
+.text-home{
+    font-size: medium;
+}
+
+/* serviços */
+.servicos hr{
+    height: 2px;
+    color: var(--cor-principal);
+}
+.img-servico{
+    width: 100%;
+    min-width: 250px;
+}
+
+/* footer */
+.footer {
+    background-color: var(--cor-principal);
+    color: var(--cor-texto-claro);
+}
+
